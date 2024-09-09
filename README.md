@@ -7,7 +7,7 @@
 Este repositório foi criado para armazenar os documentos de entrega do processo seletivo do CIti. A equipe foi composta por mim e outros dois alunos: Eduardo Mabessone e José Inocêncio. O desafio consistiu em uma análise da base de dados da empresa TechSales Inc. com o objetivo de encontrar insights valiosos para a empresa a partir desses dados.
 
 ## Análise Exploratória de Dados (EDA) da TechSales Inc.
-Descrição do Cenário
+Descrição do Cenário: 
 A TechSales Inc., uma empresa de tecnologia, está enfrentando dificuldades para atingir suas metas de vendas. Mesmo com uma equipe dedicada e um sistema CRM para gerenciar interações com clientes, atividades de vendas e oportunidades de negócio, a empresa não consegue aumentar sua taxa de conversão e maximizar o valor das vendas. Com a coleta de um conjunto robusto de dados, a liderança acredita que uma análise detalhada pode identificar padrões e tendências para melhorar o desempenho de vendas e orientar estratégias mais eficazes.
 
 ## Problema a Ser Resolvido
