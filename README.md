@@ -1,37 +1,54 @@
-# Desafio Processo Seletivo CIti
+# Desafio Processo Seletivo CITi
 
 <p align="center">
   <img src="https://github.com/waltercrastobr/P.S-Citi/blob/main/img_citi.png" alt="imagem">
 </p>
 
-Este repositório foi criado para armazenar os documentos de entrega do processo seletivo do CIti. A equipe foi composta por mim e outros dois alunos: Eduardo Mabessone e José Inocêncio. O desafio consistiu em uma análise da base de dados da empresa TechSales Inc. com o objetivo de encontrar insights valiosos para a empresa a partir desses dados.
+## Introdução
+### Contexto do Projeto
+A TechSales Inc., uma empresa de tecnologia, está enfrentando dificuldades para atingir suas metas de vendas, mesmo com uma equipe dedicada e um sistema de CRM para gerenciar interações com clientes, atividades de vendas e oportunidades de negócio. O objetivo da empresa é identificar padrões e tendências para melhorar o desempenho de vendas e orientar estratégias mais eficazes. Aqui está a [proposta](https://github.com/waltercrastobr/P.S-Citi/blob/main/Desafio_Geral_-_PTA_IDFin_2024.1.pdf) de projeto detalhada.
 
-## Análise Exploratória de Dados (EDA) da TechSales Inc.
-Descrição do Cenário: 
-A TechSales Inc., uma empresa de tecnologia, está enfrentando dificuldades para atingir suas metas de vendas. Mesmo com uma equipe dedicada e um sistema CRM para gerenciar interações com clientes, atividades de vendas e oportunidades de negócio, a empresa não consegue aumentar sua taxa de conversão e maximizar o valor das vendas. Com a coleta de um conjunto robusto de dados, a liderança acredita que uma análise detalhada pode identificar padrões e tendências para melhorar o desempenho de vendas e orientar estratégias mais eficazes.
+### Problema de Negócio
+A TechSales Inc. precisa entender os fatores que influenciam o sucesso nas vendas e identificar oportunidades de melhoria. A empresa busca respostas para questões como:
 
-## Problema a Ser Resolvido
-A TechSales Inc. precisa de nossa ajuda para entender os fatores que influenciam o sucesso das vendas e identificar oportunidades de melhoria. A empresa busca respostas para perguntas como:
+- Quais são os principais fatores que determinam o sucesso ou fracasso de uma oportunidade?
+- Quais produtos têm maior impacto nas vendas e como otimizar o portfólio?
+- Como o desempenho das equipes de vendas varia, e o que podemos aprender com as equipes de melhor desempenho?
+- Quais características dos clientes estão mais associadas ao fechamento de negócios?
 
-- Quais são os principais fatores que determinam se uma oportunidade será ganha ou perdida?
-- Quais produtos têm maior impacto nas vendas e como podemos otimizar nosso portfólio de produtos?
-- Como o desempenho das diferentes equipes de vendas varia e o que podemos aprender com as equipes de melhor desempenho?
-- Quais características dos clientes estão mais associadas ao fechamento de negócios e como podemos segmentar nossos esforços de vendas para melhor atender a esses clientes?
-- Neste projeto, conduzimos uma análise exploratória dos dados (EDA) para investigar essas questões e fornecer insights valiosos para a TechSales Inc.
+### Objetivos do Projeto
+- Realizar uma Análise Exploratória de Dados (EDA) para identificar padrões e tendências.
+- Fornecer insights sobre como melhorar a performance das vendas.
+- Propor ações para otimização do portfólio de produtos e segmentação dos clientes.
 
-## Bases de Dados Utilizadas
-- [base1](https://github.com/waltercrastobr/P.S-Citi/blob/main/accounts.csv)
-- [base2]()
-- [base3](https://github.com/waltercrastobr/P.S-Citi/blob/main/products.csv)
-- [base4](https://github.com/waltercrastobr/P.S-Citi/blob/main/sales_pipeline.csv)
-- [base5](https://github.com/waltercrastobr/P.S-Citi/blob/main/sales_teams.csv)
+### Benefícios Esperados
+- Insights valiosos sobre o comportamento das vendas e o desempenho das equipes.
+- Sugestões estratégicas para melhorar a taxa de conversão e maximizar o valor das vendas.
+- Identificação dos principais produtos e clientes que geram maior impacto para o negócio.
 
-## Base final após o pré-processamento
-- [Base Final](https://github.com/waltercrastobr/P.S-Citi/blob/main/base_final_eda.csv)
+## Metodologia
+### Análise Exploratória de Dados (EDA)
+Para realizar a Análise Exploratória de Dados, utilizamos várias bases fornecidas pela TechSales Inc.:
 
-## Notebooks Desenvolvidos
-- [ETL](https://github.com/waltercrastobr/P.S-Citi/blob/main/ETL_Desafio_PTA.ipynb): Extração, Transformação e Carregamento dos dados.
-- [EDA](https://github.com/waltercrastobr/P.S-Citi/blob/main/EDA_Desafio_PTA.ipynb): Análise Exploratória de Dados.
+- Accounts: Informações sobre as empresas clientes.
+- Products: Dados dos produtos vendidos.
+- Sales Pipeline: Pipeline de vendas com detalhes das oportunidades.
+- Sales Team: Desempenho e composição das equipes de vendas.
+- Dicionário de Dados: Descrição das variáveis presentes nas bases.
+- 
+Os dados foram pré-processados para eliminar duplicatas, lidar com dados nulos e normalizar as variáveis necessárias. Em seguida, foi realizada a criação de gráficos e tabelas comparativas para facilitar a visualização dos padrões entre os produtos mais vendidos e as oportunidades bem-sucedidas.
 
-## Relatório
-Por fim, geramos um [relatório](https://github.com/waltercrastobr/P.S-Citi/blob/main/Apresenta%C3%A7%C3%A3o%20PTA%20detalhada%20(1).pdf) de insights contendo sugestões de valor para a empresa.
+### Notebooks Desenvolvidos
+- [ETL](https://github.com/waltercrastobr/P.S-Citi/blob/main/ETL_Desafio_PTA.ipynb): Extração, transformação e carregamento dos dados.
+- [EDA](https://github.com/waltercrastobr/P.S-Citi/blob/main/EDA_Desafio_PTA.ipynb): Análise Exploratória de Dados para geração de insights.
+
+## Resultados
+Foram gerados insights importantes, incluindo:
+
+- Identificação de fatores-chave para o sucesso das vendas, como o envolvimento dos gerentes regionais e o impacto de determinados produtos no desempenho de vendas.
+- Análise do portfólio de produtos que mais contribuem para o sucesso da empresa.
+- Sugestões para a segmentação de clientes baseada nas características que mais influenciam o fechamento de negócios.
+  
+## Conclusão
+Este [relatório](https://github.com/waltercrastobr/P.S-Citi/blob/main/Apresentac%CC%A7a%CC%83o%20Case%20TechSales.pdf) contém os resultados da análise exploratória, que foram validados para fornecer recomendações práticas à TechSales Inc.. Espera-se que, com base nestes insights, a empresa possa ajustar suas estratégias de vendas para melhorar a taxa de conversão e o desempenho geral das equipes.
+
