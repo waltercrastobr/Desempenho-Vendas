@@ -30,13 +30,13 @@ A TechSales Inc. precisa entender os fatores que influenciam o sucesso nas venda
 ### Análise Exploratória de Dados (EDA)
 Para realizar a Análise Exploratória de Dados, utilizamos várias bases fornecidas pela TechSales Inc.:
 
-- Accounts: Informações sobre as empresas clientes.
-- Products: Dados dos produtos vendidos.
-- Sales Pipeline: Pipeline de vendas com detalhes das oportunidades.
-- Sales Team: Desempenho e composição das equipes de vendas.
-- Dicionário de Dados: Descrição das variáveis presentes nas bases.
-- 
-Os dados foram pré-processados para eliminar duplicatas, lidar com dados nulos e normalizar as variáveis necessárias. Em seguida, foi realizada a criação de gráficos e tabelas comparativas para facilitar a visualização dos padrões entre os produtos mais vendidos e as oportunidades bem-sucedidas.
+- [Accounts](https://github.com/waltercrastobr/P.S-Citi/blob/main/accounts.csv): Informações sobre as empresas clientes.
+- [Products](https://github.com/waltercrastobr/P.S-Citi/blob/main/products.csv): Dados dos produtos vendidos.
+- [Sales Pipeline](https://github.com/waltercrastobr/P.S-Citi/blob/main/sales_pipeline.csv): Pipeline de vendas com detalhes das oportunidades.
+- [Sales Team](https://github.com/waltercrastobr/P.S-Citi/blob/main/sales_teams.csv): Desempenho e composição das equipes de vendas.
+- [Dicionário de Dados](https://github.com/waltercrastobr/P.S-Citi/blob/main/data_dictionary.csv): Descrição das variáveis presentes nas bases.
+  
+Os dados foram pré-processados para eliminar duplicatas, lidar com dados nulos e normalizar as variáveis necessárias. Após essa etapa, foi gerada uma [base tratada](https://github.com/waltercrastobr/P.S-Citi/blob/main/base_final_eda.csv) para análise. Em seguida, foi realizada a criação de gráficos e tabelas comparativas para facilitar a visualização dos padrões entre os produtos mais vendidos e as oportunidades bem-sucedidas.
 
 ### Notebooks Desenvolvidos
 - [ETL](https://github.com/waltercrastobr/P.S-Citi/blob/main/ETL_Desafio_PTA.ipynb): Extração, transformação e carregamento dos dados.
